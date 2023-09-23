@@ -9,15 +9,15 @@ import javax.persistence.metamodel.SetAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-09-02T18:11:25", comments="EclipseLink-2.7.10.v20211216-rNA")
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-09-23T15:38:27", comments="EclipseLink-2.7.10.v20211216-rNA")
 @StaticMetamodel(Orders.class)
 public class Orders_ { 
 
     public static volatile SingularAttribute<Orders, String> note;
     public static volatile SingularAttribute<Orders, Integer> amount;
     public static volatile SingularAttribute<Orders, Date> createdDate;
-    public static volatile SingularAttribute<Orders, Status> orderstatus;
     public static volatile SingularAttribute<Orders, Integer> id;
+    public static volatile SingularAttribute<Orders, Status> type;
     public static volatile SingularAttribute<Orders, Date> shippedDate;
     public static volatile SingularAttribute<Orders, Users> userid;
     public static volatile SetAttribute<Orders, OrderDetail> orderDetailSet;

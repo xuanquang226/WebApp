@@ -1,6 +1,6 @@
 package com.annp.pojo;
 
-import com.annp.pojo.Category;
+import com.annp.pojo.CategorySub;
 import com.annp.pojo.OrderDetail;
 import com.annp.pojo.Status;
 import java.math.BigDecimal;
@@ -10,7 +10,7 @@ import javax.persistence.metamodel.SetAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-09-02T18:11:25", comments="EclipseLink-2.7.10.v20211216-rNA")
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2023-09-23T15:38:27", comments="EclipseLink-2.7.10.v20211216-rNA")
 @StaticMetamodel(Product.class)
 public class Product_ { 
 
@@ -22,12 +22,12 @@ public class Product_ {
     public static volatile SingularAttribute<Product, Integer> discount;
     public static volatile SingularAttribute<Product, Date> updatedDate;
     public static volatile SetAttribute<Product, OrderDetail> orderDetailSet;
+    public static volatile SingularAttribute<Product, CategorySub> categorysubId;
     public static volatile SingularAttribute<Product, Date> createdDate;
     public static volatile SingularAttribute<Product, Integer> reviewCount;
     public static volatile SingularAttribute<Product, Integer> price;
     public static volatile SingularAttribute<Product, BigDecimal> averageRating;
     public static volatile SingularAttribute<Product, String> name;
     public static volatile SingularAttribute<Product, Integer> id;
-    public static volatile SingularAttribute<Product, Category> categoryId;
 
 }

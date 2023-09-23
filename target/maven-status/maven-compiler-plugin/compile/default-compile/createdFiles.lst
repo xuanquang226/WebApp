@@ -1,6 +1,7 @@
 com\annp\controllers\ApiComment.class
 com\annp\service\impl\CityServiceImpl.class
 com\annp\pojo\Role.class
+com\annp\service\impl\OrdersServiceImpl.class
 com\annp\configs\DispatcherServletInit.class
 com\annp\repository\impl\StatsRepositoryImpl.class
 com\annp\service\UserLevelsService.class
@@ -26,6 +27,7 @@ com\annp\pojo\Report.class
 com\annp\repository\ProductRepository.class
 com\annp\service\impl\CategoryServiceImpl.class
 com\annp\repository\DistrictRepository.class
+com\annp\service\PaginatesService.class
 com\annp\pojo\Orders.class
 com\annp\controllers\ErrorController.class
 com\annp\repository\WardRepository.class
@@ -33,6 +35,7 @@ com\annp\configs\SecurityWebApplicationInitializer.class
 com\annp\pojo\Status.class
 com\annp\validator\UserValidator.class
 com\annp\service\CategoryService.class
+com\annp\service\impl\PaginatesServiceImpl.class
 com\annp\pojo\Users.class
 com\annp\repository\CategoryRepository.class
 com\annp\repository\CityRepository.class
@@ -40,6 +43,7 @@ com\annp\service\StatsService.class
 com\annp\configs\SpringSecurityConfig.class
 com\annp\pojo\Orders_.class
 com\annp\pojo\District_.class
+com\annp\repository\OrdersRepository.class
 com\annp\repository\UserRepository.class
 com\annp\controllers\ApiCartController.class
 com\annp\repository\impl\UserRepositoryImpl.class
@@ -52,8 +56,10 @@ com\annp\repository\UserLevelsRepository.class
 com\annp\pojo\Facebook.class
 com\annp\service\impl\WardServiceImpl.class
 com\annp\pojo\UserLevels_.class
+com\annp\service\OrdersService.class
 com\annp\pojo\Cart.class
 com\annp\service\impl\UserLevelsServiceImpl.class
+com\annp\dto\PaginatesDto.class
 com\annp\pojo\Report_.class
 com\annp\pojo\Users_.class
 com\annp\service\CategorySubService.class
@@ -62,6 +68,7 @@ com\annp\service\CommentService.class
 com\annp\pojo\Ward.class
 com\annp\service\impl\UserServiceImpl.class
 com\annp\repository\impl\CityRepositoryImpl.class
+com\annp\repository\impl\OrdersRepositoryImpl.class
 com\annp\controllers\AdminController.class
 com\annp\repository\impl\CategoryRepositoryImpl.class
 com\annp\service\StatusService.class
@@ -81,6 +88,7 @@ com\annp\service\WardService.class
 com\annp\configs\HibernateConfig.class
 com\annp\repository\impl\DistrictRepositoryImpl.class
 com\annp\repository\impl\StatusRepositoryImpl.class
+com\annp\controllers\ApiOrderController.class
 com\annp\pojo\City_.class
 com\annp\pojo\UserLevels.class
 com\annp\pojo\Recaptcha.class

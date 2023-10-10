@@ -21,6 +21,7 @@ com\annp\repository\impl\WardRepositoryImpl.class
 com\annp\handlers\FacebookHandler.class
 com\annp\pojo\Category_.class
 com\annp\pojo\OrderDetail.class
+com\annp\controllers\ApiAdminController.class
 com\annp\pojo\Ward_.class
 com\annp\pojo\Comment.class
 com\annp\pojo\Report.class
@@ -36,6 +37,7 @@ com\annp\pojo\Status.class
 com\annp\validator\UserValidator.class
 com\annp\service\CategoryService.class
 com\annp\service\impl\PaginatesServiceImpl.class
+com\annp\repository\ReportRepository.class
 com\annp\pojo\Users.class
 com\annp\repository\CategoryRepository.class
 com\annp\repository\CityRepository.class
@@ -58,6 +60,7 @@ com\annp\service\impl\WardServiceImpl.class
 com\annp\pojo\UserLevels_.class
 com\annp\service\OrdersService.class
 com\annp\pojo\Cart.class
+com\annp\repository\impl\ReportRepositoryImpl.class
 com\annp\service\impl\UserLevelsServiceImpl.class
 com\annp\dto\PaginatesDto.class
 com\annp\pojo\Report_.class
@@ -79,6 +82,7 @@ com\annp\repository\CommentRepository.class
 com\annp\pojo\CategorySub.class
 com\annp\repository\StatsRepository.class
 com\annp\service\impl\ProductServiceImpl.class
+com\annp\service\impl\ReportServiceImpl.class
 com\annp\service\impl\CategorySubServiceImpl.class
 com\annp\service\impl\StatsServiceImpl.class
 com\annp\utils\Utils.class
@@ -100,6 +104,7 @@ com\annp\service\UserService.class
 com\annp\repository\CategorySubRepository.class
 com\annp\handlers\MyAccessDenied.class
 com\annp\formatter\CategoryFormatter.class
+com\annp\service\ReportService.class
 com\annp\controllers\UserController.class
 com\annp\service\impl\DistrictServiceImpl.class
 com\annp\configs\TilesConfig.class

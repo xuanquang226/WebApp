@@ -38,6 +38,8 @@ D:\IT93\Do_An\WebApp\src\main\java\com\annp\controllers\ApiProductController.jav
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\impl\WardRepositoryImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\UserLevelsRepository.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\CityService.java
+D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\ReportService.java
+D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\ReportRepository.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\configs\SecurityWebApplicationInitializer.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\Ward.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\Users.java
@@ -54,6 +56,7 @@ D:\IT93\Do_An\WebApp\src\main\java\com\annp\handlers\MyAccessDenied.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\configs\HibernateConfig.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\handlers\LogoutSuccessHandler.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\DistrictRepository.java
+D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\impl\ReportRepositoryImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\impl\CityRepositoryImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\UserRepository.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\repository\OrdersRepository.java
@@ -61,6 +64,7 @@ D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\impl\DistrictServiceImpl.jav
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\impl\CategorySubServiceImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\Role.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\UserService.java
+D:\IT93\Do_An\WebApp\src\main\java\com\annp\controllers\ApiAdminController.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\handlers\GoogleHandler.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\Orders.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\Report.java
@@ -85,6 +89,7 @@ D:\IT93\Do_An\WebApp\src\main\java\com\annp\pojo\City.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\impl\CategoryServiceImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\impl\PaginatesServiceImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\configs\DispatcherServletInit.java
+D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\impl\ReportServiceImpl.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\service\StatsService.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\controllers\ErrorController.java
 D:\IT93\Do_An\WebApp\src\main\java\com\annp\handlers\LoginSuccessHandler.java

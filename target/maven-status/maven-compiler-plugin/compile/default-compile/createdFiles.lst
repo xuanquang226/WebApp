@@ -26,6 +26,7 @@ com\annp\pojo\Ward_.class
 com\annp\pojo\Comment.class
 com\annp\pojo\Report.class
 com\annp\repository\ProductRepository.class
+com\annp\repository\PromotionRepository.class
 com\annp\service\impl\CategoryServiceImpl.class
 com\annp\repository\DistrictRepository.class
 com\annp\service\PaginatesService.class
@@ -42,16 +43,19 @@ com\annp\pojo\Users.class
 com\annp\repository\CategoryRepository.class
 com\annp\repository\CityRepository.class
 com\annp\service\StatsService.class
+com\annp\pojo\Promotion_.class
 com\annp\configs\SpringSecurityConfig.class
 com\annp\pojo\Orders_.class
 com\annp\pojo\District_.class
 com\annp\repository\OrdersRepository.class
 com\annp\repository\UserRepository.class
+com\annp\pojo\Promotion.class
 com\annp\controllers\ApiCartController.class
 com\annp\repository\impl\UserRepositoryImpl.class
 com\annp\controllers\ApiProductController.class
 com\annp\service\impl\StatusServiceImpl.class
 com\annp\pojo\OrderDetail_.class
+com\annp\service\impl\PromotionServiceImpl.class
 com\annp\configs\WebAppContextConfig.class
 com\annp\service\CityService.class
 com\annp\repository\UserLevelsRepository.class
@@ -79,6 +83,7 @@ com\annp\service\DistrictService.class
 com\annp\repository\impl\CommentRepositoryImpl.class
 com\annp\repository\StatusRepository.class
 com\annp\repository\CommentRepository.class
+com\annp\repository\impl\PromotionRepositoryImpl.class
 com\annp\pojo\CategorySub.class
 com\annp\repository\StatsRepository.class
 com\annp\service\impl\ProductServiceImpl.class
@@ -92,6 +97,7 @@ com\annp\service\WardService.class
 com\annp\configs\HibernateConfig.class
 com\annp\repository\impl\DistrictRepositoryImpl.class
 com\annp\repository\impl\StatusRepositoryImpl.class
+com\annp\service\PromotionService.class
 com\annp\controllers\ApiOrderController.class
 com\annp\pojo\City_.class
 com\annp\pojo\UserLevels.class

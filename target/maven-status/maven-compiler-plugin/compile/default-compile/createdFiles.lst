@@ -109,6 +109,7 @@ com\annp\pojo\CategorySub_.class
 com\annp\service\UserService.class
 com\annp\repository\CategorySubRepository.class
 com\annp\handlers\MyAccessDenied.class
+com\annp\controllers\ApiWheelController.class
 com\annp\formatter\CategoryFormatter.class
 com\annp\service\ReportService.class
 com\annp\controllers\UserController.class
